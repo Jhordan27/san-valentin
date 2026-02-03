@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>¿Quieres ser mi San Valentín? 💜</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-glow"></div>
+
+  <main class="wrap">
+    <section class="card hero">
+      <div class="hero__left">
+        <div class="badge">💌 Para ti</div>
+
+        <h1 class="title">¿Quieres ser mi San Valentín?</h1>
+        <p class="subtitle">
+          Prometo hacerte pasar el mejor dia de tu vida
+        </p>
+
+        <div class="actions">
+          <!-- El Sí es enlace (funciona aunque el JS falle) -->
+          <a href="si.html" id="btnYes" class="btn btn--primary">Sí 💖</a>
+
+          <!-- El No se mueve dentro de este contenedor -->
+          <div class="no-area" id="noArea" aria-label="Zona del botón No">
+            <button id="btnNo" class="btn btn--ghost" type="button">No 🙃</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="hero__right">
+        <div class="photo-stack">
+          <figure class="polaroid">
+            <img src="img/claudia.jpeg" alt="Foto de Nosotros" />
+            <figcaption>Nosotros ✨</figcaption>
+          </figure>
+
+          <figure class="polaroid polaroid--tilt">
+            <img src="img/yo.jpeg" alt="Foto mía" />
+            <figcaption>Yo 😄</figcaption>
+          </figure>
+
+          <figure class="polaroid polaroid--back">
+            <img src="img/nosotros.jpeg" alt="Foto juntos" />
+            <figcaption>Juntos 💜</figcaption>
+          </figure>
+
+          <figure class="polaroid polaroid--back">
+            <img src="img/ella.jpeg" alt="Foto Ella" />
+            <figcaption>Ella 🥵</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      Hecho con cariño ✦ <span class="heart">♥</span>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
